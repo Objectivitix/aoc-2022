@@ -1,4 +1,4 @@
-with open("./input.txt") as file:
+with open("input.txt") as file:
     input = [
         elf.split("\n")
         for elf in file.read().split("\n\n")

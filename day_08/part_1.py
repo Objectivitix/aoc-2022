@@ -4,7 +4,7 @@ def get_rays(i, j, mat, mat_prime):
     yield mat_prime[j][i - 1::-1] if i != 0 else []
     yield mat_prime[j][i + 1:]
 
-with open("./input.txt") as file:
+with open("input.txt") as file:
     trees = [list(map(int, line)) for line in file.read().splitlines()]
     trees_prime = [list(tup) for tup in zip(*trees)]
 

@@ -1,6 +1,6 @@
 SLIDING_WINDOW_SPAN = 4
 
-with open("./input.txt") as file:
+with open("input.txt") as file:
     input = file.read()
 
 marker = None

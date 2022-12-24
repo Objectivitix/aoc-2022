@@ -4,7 +4,7 @@ def parse_crates(line, stacks_n):
     for i in range(stacks_n):
         yield line[i * 4 + 1]
 
-with open("./input.txt") as file:
+with open("input.txt") as file:
     stacks_raw, procedure_raw = (
         raw.splitlines()
         for raw in file.read().split("\n\n")

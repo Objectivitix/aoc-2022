@@ -12,7 +12,7 @@ class Interval:
             and itv2.start <= itv1.end
         )
 
-with open("./input.txt") as file:
+with open("input.txt") as file:
     raw = file.read().splitlines()
 
     input = []

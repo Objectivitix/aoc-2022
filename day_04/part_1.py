@@ -11,7 +11,7 @@ class Interval:
             and self.end <= other.end
         )
 
-with open("./input.txt") as file:
+with open("input.txt") as file:
     raw = file.read().splitlines()
 
     input = []

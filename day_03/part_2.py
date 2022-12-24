@@ -5,7 +5,7 @@ UPPER_OFFSET = 38
 def calculate_priority(item):
     return ord(item) - (LOWER_OFFSET if item.islower() else UPPER_OFFSET)
 
-with open("./input.txt") as file:
+with open("input.txt") as file:
     raw = file.read().splitlines()
     input = [raw[i:i+ELF_CHUNKS] for i in range(0, len(raw), ELF_CHUNKS)]
 

@@ -15,7 +15,7 @@ def get_viewing_dist(target_height, ray):
 
     return viewing_dist
 
-with open("./input.txt") as file:
+with open("input.txt") as file:
     trees = [list(map(int, line)) for line in file.read().splitlines()]
     trees_prime = [list(tup) for tup in zip(*trees)]
 

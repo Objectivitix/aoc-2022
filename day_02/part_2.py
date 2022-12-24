@@ -45,7 +45,7 @@ ROUND_RESULTS = {
     "Z": Results.WIN,
 }
 
-with open("./input.txt") as file:
+with open("input.txt") as file:
     input = [line.split() for line in file.read().splitlines()]
 
 total_score = 0

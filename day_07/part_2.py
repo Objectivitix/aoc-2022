@@ -59,7 +59,7 @@ def get_dirs_reaching(node, threshold):
         if isinstance(child, DirNode):
             yield from get_dirs_reaching(child, threshold)
 
-with open("./input.txt") as file:
+with open("input.txt") as file:
     input = file.read().splitlines()
 
 ROOT_NODE = DirNode("/", None)
