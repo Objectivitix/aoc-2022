@@ -1,4 +1,5 @@
 # Solution uses a directed, unweighted graph.
+# Naive iteration over all elevation=1 nodes; optimization unnecessary.
 
 from collections import deque
 
